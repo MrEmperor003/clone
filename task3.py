@@ -10,3 +10,17 @@ money = [1000, 1200, 800, 1500, 1100]
 
 → Perform the corrections and computations, and print all results.
 """
+
+# task4 Answers
+money = [1000, 1200, 800, 1500, 1100]
+total = money[0] + money[1] + money[2] + money[3] + money[4]
+print("Total: ", total)
+
+# Replace 800 with 1000
+money[2] = ("1ooo")
+print(money)
+
+# Replace in reverse
+
+money = money[0:4] = money[-1:5]
+print(money)
