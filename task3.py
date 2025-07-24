@@ -22,5 +22,5 @@ print(money)
 
 # Replace in reverse
 
-money = money[0:4] = money[-1:5]
+money[::-1]
 print(money)
