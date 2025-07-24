@@ -20,12 +20,11 @@ meals.insert(4, "Miyan Taushe")
 print(meals)
 
 # 2. Remove "Masa"
-meals.remove("Masa")
+meals.remove(meals[1])
 print(meals)
 
 # 3. Move "Fura da Nono" to the end
-meals.remove("Fura da Nono")
-meals.append("Fura da Nono")
+meals[2], meals[5] = meals[5], meals[2]
 print(meals)
 
 # 4. Find the center meal
