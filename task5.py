@@ -23,7 +23,7 @@ friends.remove(friends[1])
 print(friends)
 # 3. Update "Aisha" to "Aisha_M"
 
-friend[0]=("Aisha_M")
+friends[0] = "Aisha_M"
 print(friends)
 
 # 4. Add "Zainab" at the end
