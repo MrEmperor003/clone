@@ -10,3 +10,14 @@ genres = ["Adventure", "Comedy", "Animation", "Fantasy", "Sci-Fi", "Documentary"
 
 → Modify the list and display the required results.
 """
+# task 2
+genres = ["Adventure", "Comedy", "Animation", "Fantasy", "Sci-Fi", "Documentary", "Fantasy"]
+# add Drama
+
+genres.append("Drama")
+print(genres)
+# remove one fantasy
+genres.remove(genres[3])
+print(genres)
+#how many genres planned
+
