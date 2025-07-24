@@ -19,6 +19,12 @@ print(courses)
 # remove GST 101 
 courses.remove(courses[-1])
 print(courses)
+
 # add BIO 101 after CHM 101
 courses.insert(3, "BIO 1O1")
 print(courses)
+
+Total_courses = courses[0] + courses[1] + courses[2] + courses[3] + courses[4] + courses[5]
+print(Total_courses)
+
+print(courses[2])
